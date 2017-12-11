@@ -47,7 +47,7 @@ nav {
   font-weight: thin;
   text-shadow: 2px 2px 1px #000000;
   text-transform: none;
-  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 nav ul {
