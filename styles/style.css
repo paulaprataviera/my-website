@@ -1,26 +1,48 @@
 /*CSS Styles*/
 
-body {
-  background: url("../images/bg3.jpg") no-repeat scroll black;
-  background-size: cover;
-}
-#wrapper h1 {
-  position: relative;
-  top: 20px;
-  width: 500px;
-  margin: auto;
-  padding: 5px;
-  font-family: 'Amatic SC', 'cursive';
-  color: #e0e0eb;
-  font-size: 70pt;
-  text-align: center;
-}
-#wrapper p {
-  position: relative;
-  top: 470px;
-  margin: auto;
+body, html {
+  height: 100%;
+  margin: 0;
   font-family: 'Barlow Semi Condensed', 'sans-serif';
-  color: #e0e0eb;
-  font-size: 13pt;
+}
+.home {
+  background-image: url('../images/bg4.jpg');
+  position: relative;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*this is the parallax effect*/
+  background-attachment: fixed;
+}
+h1 {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  top: 2%;
+  font-family: 'Amatic SC', 'cursive';
+  color: white;
+  font-size: 70pt;
+  font-weight: lighter;
   text-align: center;
+  text-shadow: 2px 2px 1px #000000;
+}
+nav {
+  position: absolute;
+  width: 100%;
+  bottom: 4%;
+  font-family: 'Barlow Semi Condensed', 'sans-serif';
+  color: white;
+  font-size:15pt;
+  text-align: center;
+  text-shadow: 2px 2px 1px #000000;
+}
+section {
+  text-align: center;
+  padding: 60px 180px 0px 180px;
+  color: #333333;
+}
+.line-separator{
+  border-bottom:1px solid #cccccc;
+  padding: 75px 0 0 0;
 }
