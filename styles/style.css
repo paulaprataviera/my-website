@@ -1,29 +1,25 @@
+/*CSS Styles*/
+
 body {
-  background: url("../images/bg3.jpg") no-repeat fixed black;
+  background: url("../images/bg3.jpg") no-repeat scroll black;
   background-size: cover;
 }
-/*#intro img {
-  position: absolute;
-  top: 0;
-  width: 100px;
-  height: 100px;*/
-}
-#intro h1 {
+#wrapper h1 {
   position: relative;
-  top: 30px;
+  top: 20px;
   width: 500px;
   margin: auto;
   padding: 5px;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Amatic SC', 'cursive';
   color: #e0e0eb;
-  font-size: 40pt;
+  font-size: 70pt;
   text-align: center;
 }
-#intro p {
+#wrapper p {
   position: relative;
-  top: 40px;
+  top: 470px;
   margin: auto;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Barlow Semi Condensed', 'sans-serif';
   color: #e0e0eb;
   font-size: 13pt;
   text-align: center;
